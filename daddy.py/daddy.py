@@ -73,7 +73,7 @@ from ssl import SSL_ERROR_INVALID_ERROR_CODE
 # else:
 #     print(f"{x}>{y}")
 # mahsulotlar = ['un', "yog'", "sovun", 'tuxum', 'piyoz',
-              #  'kartoshka', 'olma', 'banan', 'uzum', 'qovun']
+               'kartoshka', 'olma', 'banan', 'uzum', 'qovun']
 
 
 # savat = []
@@ -94,11 +94,11 @@ from ssl import SSL_ERROR_INVALID_ERROR_CODE
 #   print(mahsulot)
 # for mahsulot in bor_mahsulotlar:
 #     print(mahsulot)
-daddy = ['alisher1983','aziza','yasina' 'umar']
+users = ['alisher1983','aziza','yasina' 'umar']
 
-login = input("Yangi login tanlang:" )
+login = input("Yangi login tanlang: )
 
-if login in daddy:
+if login in users:
     print('Login band, yangi login tanalng!')
 else:
     print("Xush kelibsiz!")
